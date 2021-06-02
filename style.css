@@ -1,0 +1,82 @@
+:root{
+    --main: #FF9900;
+}
+
+nav {
+    background-color: var(--main);
+}
+
+nav form{
+    flex-grow: 3;
+    justify-content: center;
+}
+
+nav form input{
+    width: 50% !important;
+}
+
+nav #navbarSupportedContent li{
+    background-color: white;
+    border-radius: 1em;
+    padding: 0 5px;
+    margin: 0 5px;
+}
+
+nav #navbarSupportedContent li:hover{
+    background-color: #ddd;
+}
+
+nav #navbarSupportedContent li a{
+    color: var(--main);
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{    
+    width: 18%;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+}
+
+.main .card img{
+    width: 120px;
+}
+
+.main .card p{
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+.main .card .btn{
+    background-color: var(--main);
+    border: none;
+}
+
+.main .card .btn:hover{
+    background-color: #ff9900bb;
+    border: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .card{    
+        width: 40%;
+        padding: 10px;
+        margin: 5px;
+        align-items: center;
+    }
+
+    nav #navbarSupportedContent li{
+        background-color: var(--main);
+    }
+    nav #navbarSupportedContent li a{
+        color: white;
+
+    }
+  }
