@@ -1,13 +1,13 @@
 $(document).ready(()=>{
     $.ajax({
         type: 'GET',
-        url: 'https://ocistok.com/pages/json-produk',
+        url: 'https://ocistok.com/pages/json-pssroduk',
         // data: {
         //    format: 'html'
         // },
-        // error: function() {
-        //    $('#info').html('<p>An error has occurred</p>');
-        // },
+        error: function() {
+           alert('<p>An error has occurred</p>');
+        },
         // dataType: 'jsonp',
         success: function(data) {
             // console.log(data);
