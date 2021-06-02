@@ -1,7 +1,7 @@
 $(document).ready(()=>{
     $.ajax({
         type: 'GET',
-        url: 'https://ocistok.com/pages/json-pssroduk',
+        url: 'https://ocistok.com/pages/json-produk',
         // data: {
         //    format: 'html'
         // },
